@@ -95,6 +95,14 @@ ul{
     color: #D41217 !important;
 }
 
+.red2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #D41217;
+}
+
+
 .orange{
     color: #F39332E5 !important;
 }
@@ -177,3 +185,31 @@ hr{
 .socials .social img{
     width: 40px;
 }
+
+.text1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A4A4A;
+}
+
+.text2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+   color: #8961A6;
+}
+
+.text3{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:#F39332;
+}
+
