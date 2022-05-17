@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 html, body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -16,6 +19,67 @@ html, body{
     z-index: -1;
 }
 
+.bg-green{
+    background-color: #8DB524E5;
+}
+
+.bg-violet{
+    background-color: #8961A6E5;
+}
+
+.bg-red{
+    background-color: #D41217E5;
+}
+
+.bg-orange{
+    background-color: #F39332E5;
+}
+
+.bg-green-light{
+    background-color: rgba(141, 181, 36, 0.2);
+}
+
+.bg-violet-light{
+    background-color: rgba(137, 97, 166, 0.2);
+}
+
+.bg-red-light{
+    background-color: rgba(112, 18, 23, 0.2);
+}
+
+.bg-orange-light{
+    background-color: rgba(243, 147, 50, 0.2);
+}
+
+.bg-orange-light{
+    background-color: rgba(243, 147, 50, 0.2);
+}
+
+.bg-blue-light{
+    background-color: rgba(243, 147, 50, 0.2);
+}
+
+.bg-gray-light{
+    background-color: rgba(243, 147, 50, 0.2);
+}
+
+
+
+.violet{
+    color: #8961A6E5 !important;
+}
+.green{
+    color: #8DB524E5 !important;
+}
+.red{
+    color: #D41217 !important;
+}
+
+.orange{
+    color: #F39332E5 !important;
+}
+
+
 .hidden {
     display: none;
 }
@@ -33,19 +97,19 @@ hr{
     border-top: 1px solid #D41217 !important;
 }
 
-.red{
-    color: #D41217;
-}
-
-.btn_red {
+.btn-red {
     background-color: #D41217 !important;
     color: white !important;
     width: 180px;
 }
 
-.btn_red:hover {
+.btn-red:hover {
     background-color: darkred;
     color: white;
+}
+
+.btn.btn-white{
+    background-color: #fff;
 }
 
 .menu-group-upper .menu-item{
@@ -66,6 +130,10 @@ hr{
     width: 129px;
     height: 28px;
     margin-bottom: -10px;
+}
+
+.hero{
+    height: 100vh;
 }
 
 .hero img{
