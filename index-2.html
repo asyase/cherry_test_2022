@@ -21,7 +21,7 @@
 
 <body>
 <header class="header">
-    <div class="cookie-notice bg_grey ">
+    <div class="cookie-notice bg_grey d-none d-lg-block">
         <div class="container">
             <div class="wrapper row d-flex align-items-center p-2">
                 <div class="cookie-text col-8 text-center">
@@ -35,14 +35,15 @@
         </div>
     </div>
     <div class="header-upper">
-        <div class="container ">
+        <div class="container d-flex justify-content-between">
             <a href="" class="logo">
                 <img src="assets/images/logo.svg" alt="">
             </a>
             <div class="header-upper-right d-flex d-lg-none">
-                <div class="dropdown lang-switch mobile">
-                    <a class="dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <p>ENG</p><img src="assets/arrow-down-white.svg" alt="">
+                <div class="dropdown lang-switch mobile btn btn-red w-100">
+                    <a class="dropdown-toggle text-white d-flex align-items-center" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <p>ENG</p>
+                        <img src="assets/images/arrow-down-white.svg" alt="">
                     </a>
 
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -50,12 +51,12 @@
                         <a class="dropdown-item" href="#">SWE</a>
                     </div>
                 </div>
-                <img src="assets/images/burger.svg" alt="" class="burger mobile">
-                <img src="assets/images/close.svg" width="16" height="16" alt="" class="close-img mobile">
+                <img src="assets/images/burger.svg" alt="" class="burger mobile ml-4">
+                <img src="assets/images/close.svg" width="16" height="16" alt="" class="close-img mobile hidden">
             </div>
         </div>
     </div>
-    <div class="mob-menu mobile d-block d-lg-none">
+    <div class="mob-menu mobile hidden d-lg-none">
         <div class="header-search">
             <div class="search-bar">
                 <img src="assets/images/search-icon.svg" alt="">
@@ -64,16 +65,16 @@
             </div>
         </div>
         <div class="menu-items">
-            <li class="menu-item"><a>about cherry</a><img src="assets/plus.svg" alt=""><img class="minus-icon" src="assets/minus.svg"></li>
-            <li class="menu-item"><a>business areas</a><img src="assets/plus.svg" alt=""><img class="minus-icon" src="assets/minus.svg"></li>
-            <div class="dropdown">
-                <a class="dropbtn"><p>corporate govenance</p><img src="assets/plus.svg" alt=""><img class="minus-icon" src="assets/minus.svg"></a>
+            <li class="menu-item"><a>about cherry</a><img src="assets/images/plus.svg" alt=""><img class="minus-icon" src="assets/images/minus.svg"></li>
+            <li class="menu-item"><a>business areas</a><img src="assets/images/plus.svg" alt=""><img class="minus-icon" src="assets/images/minus.svg"></li>
+            <div class="dropdown hidden">
+                <a class="dropbtn"><p>corporate govenance</p><img src="assets/images/plus.svg" alt=""><img class="minus-icon" src="assets/images/minus.svg"></a>
                 <div class="dropdown-content">
                     <a href="" class="column-item">General Meeting</a>
                     <a href="" class="column-item">Annual General Meeting 2017</a>
                     <a href="" class="column-item">Nomination committee</a>
                     <div class="dropdown">
-                        <a class="dropbtn inner-dropbtn"><p>Boards of Directors</p><img src="assets/plus.svg" alt=""><img class="minus-icon" src="assets/minus.svg"></a>
+                        <a class="dropbtn inner-dropbtn"><p>Boards of Directors</p><img src="assets/images/plus.svg" alt=""><img class="minus-icon" src="assets/images/minus.svg"></a>
                         <div class="dropdown-content">
                             <a href="" class="column-item smaller">Work of the board</a>
                             <a href="" class="column-item smaller">Committees</a>
@@ -89,15 +90,15 @@
                     <a href="" class="column-item">Articles of Association</a>
                 </div>
             </div>
-            <li class="menu-item"><a>investors</a><img src="assets/plus.svg" alt=""><img class="minus-icon" src="assets/minus.svg"></li>
-            <li class="menu-item"><a>media</a><img src="assets/plus.svg" alt=""><img class="minus-icon" src="assets/minus.svg"></li>
-            <li class="menu-item"><a>career</a><img src="assets/plus.svg" alt=""><img class="minus-icon" src="assets/minus.svg"></li>
-            <li class="menu-item"><a>contact</a><img src="assets/plus.svg" alt=""><img class="minus-icon" src="assets/minus.svg"></li>
+            <li class="menu-item"><a>investors</a><img src="assets/images/plus.svg" alt=""><img class="minus-icon" src="assets/images/minus.svg"></li>
+            <li class="menu-item"><a>media</a><img src="assets/images/plus.svg" alt=""><img class="minus-icon" src="assets/images/minus.svg"></li>
+            <li class="menu-item"><a>career</a><img src="assets/images/plus.svg" alt=""><img class="minus-icon" src="assets/images/minus.svg"></li>
+            <li class="menu-item"><a>contact</a><img src="assets/images/plus.svg" alt=""><img class="minus-icon" src="assets/images/minus.svg"></li>
         </div>
     </div>
     <hr>
-    <div class="header-bottom">
-        <div class="container row mx-auto p-0" style="border: 2px solid red">
+    <div class="header-bottom d-none d-lg-block">
+        <div class="container row mx-auto p-0">
             <div class="menu-group-upper col-8 d-flex justify-content-between align-items-center my-auto">
                 <a class="menu-item" href="">about cherry</a>
                 <a class="menu-item" href="">business areas</a>
@@ -139,7 +140,7 @@
             <div class="items-right col-4 d-flex align-items-center justify-content-end">
                 <h4 class="red mr-5">CHER B: 59.50sek <br>+1.75</h4>
                 <div class="dropdown lang-switch ml-5 mr-4">
-                    <a class="dropdown-toggle btn btn-red w-100" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="dropdown-toggle btn btn-red w-100 d-flex align-items-center text-white" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <p>ENG</p><img src="assets/images/arrow-down-white.svg" alt="">
                     </a>
 
@@ -150,18 +151,18 @@
                 </div>
                 <div class="search">
                     <a id="search" class="search-icon">
-                        <img src="assets/images/search-icon.svg" alt="">
-                        <img src="assets/images/search-white.svg" alt="" class="white" style="display: none;">
+                        <img id="search-red" src="assets/images/search-icon.svg" alt="">
+                        <img id="search-white" src="assets/images/search-white.svg" alt="" class="white" style="display: none;">
                     </a>
                 </div>
             </div>
-            <div class="burger mobile d-lg-none" style="border: 2px solid red;">
+            <div class="burger mobile d-lg-none">
                 <a href="" class="burger-icon"></a>
             </div>
         </div>
     </div>
     <div class="wrapper desktop">
-        <div class="header-search container text-right">
+        <div id="search-container" class="header-search container text-right hidden">
             <div class="search-bar">
                 <input type="text" class="textbar w-50 p-1" id="site-search" name="q"
                        placeholder="Lorem Ipsum Dolor">
@@ -281,16 +282,16 @@
         </div>
     </section>
     <section>
-        <div class="fullwidth row p-5">
-            <div class="text col-8">
+        <div class="fullwidth row p-5 flex-lg-row-reverse">
+            <div class="image col-lg-4">
+                <img class="w-100 p-0" src="assets/images/photo2.png" alt="">
+            </div>
+            <div class="text col-lg-8">
                 <h3 class="red">Lorem ipsum</h3>
                 <p>Cherry är ett innovativt och snabbväxande spelföretag grundat 1963 vars övergripande strategi är att skapa aktievärde genom att äga och utveckla snabbväxande och lönsamma bolag inom spel och casino.
                     Idag bedriver Cherry sin verksamhet genom fem diversifierade affärsområden, Nätspel via Cherry iGaming, Prestationsbaserad Marknadsföring via Game Lounge, Spelteknologi via XCaliber, Spelutveckling via Yggdrasil Gaming och Restaurangcasino via Cherry Spelglädje.
                     Bolagets målsättning är att växa organiskt och genom strategiska förvärv av snabbväxande företag. Cherry sysselsätter cirka 900 personer och har drygt 4 600 aktieägare. Bolagets B-aktie är listad på AktieTorget.</p>
                 <a href="" class="btn btn-red">Lorem ipsum</a>
-            </div>
-            <div class="image col-4">
-                <img class="w-100 p-0" src="assets/images/photo2.png" alt="">
             </div>
         </div>
     </section>
@@ -384,7 +385,7 @@
     </section>
 </main>
 <footer class="bg-red-light">
-    <img src="assets/logo.svg" alt="">
+    <img src="assets/images/logo.svg" alt="">
     <hr>
     <div class="row">
         <div class="column">

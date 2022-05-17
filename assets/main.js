@@ -1,7 +1,8 @@
 window.addEventListener('load', (event) => {
     document.getElementById("search").addEventListener("click",function ()
-    { console.log(document.querySelector(".header-search"));
-        document.querySelector(".header-search").classList.toggle("hidden");
+    {
+       document.getElementById("search-container").classList.toggle("hidden");
+        this.classList.toggle("bg-red");
 
     })
 });
