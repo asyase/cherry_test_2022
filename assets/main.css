@@ -11,6 +11,14 @@ a{
     cursor: pointer;
 }
 
+p{
+    margin-bottom: 0 !important;
+}
+
+ul{
+    list-style: none;
+}
+
 .bg_grey:before {
     background-color: rgb(106, 99, 99);
     content: '';
