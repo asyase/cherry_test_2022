@@ -179,6 +179,24 @@ hr{
     height: 100%;
 }
 
+.hero-container{
+    height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero{
+        width: 100%;
+    }
+    .hero img{
+        height: auto;
+    }
+
+    .hero-container{
+        height: auto;
+    }
+
+}
+
 .socials .social{
     width: 20%;
 }
