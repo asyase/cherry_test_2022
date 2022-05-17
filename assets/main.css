@@ -78,9 +78,11 @@ a{
 
 
 .violet{
+    font-size: 48px;
     color: #8961A6E5 !important;
 }
 .green{
+    font-size: 48px;
     color: #8DB524E5 !important;
 }
 .red{
@@ -94,16 +96,24 @@ a{
     color: #D41217;
 }
 
+.red3{
+    font-size: 48px;
+}
+
 
 .orange{
     color: #F39332E5 !important;
+    font-size: 48px;
+
 }
 
 .blue{
+    font-size: 48px;
     color: #18b8e7;
 }
 
-.ray{
+.gray{
+    font-size: 48px;
     color: #414141;
 }
 
@@ -197,11 +207,21 @@ hr{
 }
 
 .text3{
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 24px;
     color:#F39332;
 }
 
+.text4{
+    font-weight: 700;
+    font-size: 16px;
+    color:#41BFED;
+}
+
+
+.text5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color:#D41217;
+}
