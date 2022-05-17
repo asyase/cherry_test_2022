@@ -29,6 +29,10 @@ html, body{
     color: #4A4A4A;
 }
 
+hr{
+    border-top: 1px solid #D41217 !important;
+}
+
 .red{
     color: #D41217;
 }
