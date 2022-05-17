@@ -251,3 +251,39 @@ hr{
     font-size: 16px;
     color:#D41217;
 }
+
+.small{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+
+}
+
+.report{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.box-title{
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.big{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    list-style: none;
+    color: #FFFFFF;
+    justify-content: center;
+    padding: 10px;
+}
