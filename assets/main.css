@@ -7,6 +7,10 @@ html, body{
     font-weight: 400;
 }
 
+a{
+    cursor: pointer;
+}
+
 .bg_grey:before {
     background-color: rgb(106, 99, 99);
     content: '';
